@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/httpcore-4.4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/fluent-hc-4.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/controlsfx-8.40.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/jna-platform-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/fontawesomefx-8.9 2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/fontawesomefx-8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/httpmime-4.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/jfoenix.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/jna-4.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/javax.json-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/fontawesomefx-8.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/fontawesomefx-8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/httpclient-4.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/httpclient-cache-4.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/jfoenix-8.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/jfoenix-8.0.1 2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/production/project/jar/httpclient-win-4.5.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane fx:id="stackPane" prefHeight="750.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ControllerFrontFridgeIn">
+   <children>
+      <AnchorPane fx:id="anchorPane" maxHeight="750.0" maxWidth="700.0" minHeight="750.0" minWidth="700.0" prefHeight="750.0" prefWidth="700.0" style="-fx-background-color: #000000;">
+         <children>
+            <JFXButton fx:id="open" layoutX="584.0" onMouseClicked="#openDoor" prefHeight="750.0" prefWidth="116.0" style="-fx-background-color: #236dee;" text="Open">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <Button fx:id="owner" layoutX="18.0" layoutY="709.0" mnemonicParsing="false" onAction="#profileOwner" style="-fx-background-color: #FF5722;" text="Owner" textFill="#fcfafa">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Label layoutX="183.0" layoutY="28.0" text="Refidgerator" textFill="#ff8104">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <HBox maxHeight="35.0" maxWidth="70.0" minHeight="35.0" minWidth="70.0" prefHeight="35.0" prefWidth="70.0">
+               <children>
+                  <JFXButton fx:id="close" contentDisplay="GRAPHIC_ONLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#handleClose" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE">
+                     <graphic>
+                        <MaterialDesignIconView fill="WHITE" glyphName="CLOSE" size="24" />
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton fx:id="minimise" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#minimiseWindow" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE" textFill="WHITE">
+                     <graphic>
+                        <FontAwesomeIconView fill="WHITE" glyphName="MINUS" size="20" />
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </HBox>
+            <JFXButton fx:id="iceButton" layoutX="240.0" layoutY="285.0" mnemonicParsing="false" onAction="#iceHandle" prefHeight="103.0" prefWidth="135.0" style="-fx-background-color: #efe647;" text="Option">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
